@@ -9,10 +9,11 @@ if (session_status() === PHP_SESSION_NONE) {
 // Set default timezone
 date_default_timezone_set('UTC');
 
-define('DB_HOST', '127.0.0.1');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'mcares_db');
+define('DB_HOST', 'v820r35t6.pxxldb.pxxl.pro');
+define('DB_PORT', 46712);
+define('DB_USER', 'pxxluser_1a0197533034579');
+define('DB_PASS', 'R9KLOwQ&AWx3Iaimy&9H7p3CLrYkwLzl');
+define('DB_NAME', 'pxxldb_1a019753304168d');
 
 function getDBConnection() {
     static $pdo = null;
